@@ -41,7 +41,7 @@ void insert()
 //-------------------------------------
 void delete()
 {
-    printf("Positin : ");
+    printf("Position : ");
     scanf("%d",&loc);
     if(loc>n) 
         printf("Invalid position !");

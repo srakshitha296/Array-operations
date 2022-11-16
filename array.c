@@ -16,9 +16,10 @@ scanf("%d",&a[i]);
 //-------------------------------------
 void display()
 {
-    for(i=0;i<n;i++)
+     printf("\n-----Altered array-----");
+     for(i=0;i<n;i++)
     {
-        printf("Element %d is at index %d\n ",a[i],i);
+        printf("\nElement %d is at index %d ",a[i],i);
     }
 }
 //-------------------------------------
@@ -29,8 +30,8 @@ void insert()
     scanf("%d",&loc);
     printf("Element :");
     scanf("%d",&ele);
-    if(loc>n) 
-        printf("Invalid position !");
+    if(loc>n || loc==0) 
+        printf("Invalid position!\n");
         else
         {
           for(i=n-1;i>=loc-1;i--)
@@ -43,7 +44,7 @@ void delete()
 {
     printf("Position : ");
     scanf("%d",&loc);
-    if(loc>n) 
+   if(loc>n || loc==0) 
         printf("Invalid position !");
         else
         {
@@ -62,7 +63,7 @@ int main()
   printf("Press 0 : Exit\n");
 
   while(1) {
-  printf("\nEnter the choice : ");
+  printf("\n\nEnter the choice : ");
   scanf("%d",&choice);
   switch(choice)
   {

@@ -8,7 +8,7 @@
 <h4><i><b>This a menu driven Program in C for</b></i></h4>
 <ul>
   <li>Creating an Array of N Integer elements.</li>
-  <li>Inserting an Element at a given valid position</li>
+  <li>Inserting an Element at a given valid position.</li>
   <li>Deleting an Element at a given valid Position</li>
   <li>Display of Array Elements with Suitable Headings.</li>
   <li>Exit</li></p>
